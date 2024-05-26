@@ -8,8 +8,8 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' }
+      // { text: 'Home', link: '/' },
+      // { text: 'Guide', link: '/guide/' }
     ],
 
     sidebar: {
@@ -18,7 +18,8 @@ export default defineConfig({
           text: 'Guide',
           items: [
             { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Goals', link: '/guide/goals' }, // Adjust this if your example is inside the guide folder
+            { text: 'Vision', link: '/guide/vision' },
+            { text: 'Assumption', link: '/guide/assumption' },
           ],
         },
       ],
