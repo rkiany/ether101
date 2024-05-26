@@ -20,6 +20,7 @@ export default defineConfig({
             { text: 'Getting Started', link: '/guide/getting-started' },
             { text: 'Vision', link: '/guide/vision' },
             { text: 'Assumption', link: '/guide/assumption' },
+            { text: 'Our Stack', link: '/guide/edclub' },
           ],
         },
       ],
