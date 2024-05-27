@@ -17,9 +17,10 @@ export default defineConfig({
         {
           text: 'Guide',
           items: [
-            { text: 'Getting Started', link: '/guide/getting-started' },
+            { text: 'Our story', link: '/guide/story' },
             { text: 'Vision', link: '/guide/vision' },
             { text: 'Assumption', link: '/guide/assumption' },
+            { text: 'Challenges', link: '/guide/challenges' },
             { text: 'Our Stack', link: '/guide/edclub' },
           ],
         },
