@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "vitepress": "latest"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
   }
 }
