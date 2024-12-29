@@ -22,4 +22,7 @@ We aim to share our experiences with the world. We want to help others by provid
 
 Join us as we navigate the complexities of building and maintaining an efficient, cost-effective platform!
 
-<HyvorTalkEmbed websiteId="12354" id="edclub/infra-mission" />
+
+<ClientOnly>
+    <HyvorTalkEmbed websiteId="12354" id="edclub/infra-mission" />
+</ClientOnly>
