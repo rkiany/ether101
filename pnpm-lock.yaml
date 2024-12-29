@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      hyvor-talk-vue:
+        specifier: ^1.0.5
+        version: 1.0.5(vue@3.5.13)
     devDependencies:
       vitepress:
         specifier: latest
@@ -578,6 +582,12 @@ packages:
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
+
+  hyvor-talk-vue@1.0.5:
+    resolution: {integrity: sha512-FBYojMmjA1VFbJ1G295EdNni3s7PWPi6T6TIB6kC+7HmvlMfnzomvuH1q+3BdBpuOuK6jy/Rktf0jH8vnp7LZw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.0.5
 
   is-what@4.1.16:
     resolution: {integrity: sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==}
@@ -1309,6 +1319,10 @@ snapshots:
   hookable@5.5.3: {}
 
   html-void-elements@3.0.0: {}
+
+  hyvor-talk-vue@1.0.5(vue@3.5.13):
+    dependencies:
+      vue: 3.5.13
 
   is-what@4.1.16: {}
 

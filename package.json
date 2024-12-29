@@ -9,5 +9,8 @@
   "devDependencies": {
     "vitepress": "latest",
     "vue": "^3.3.0"
+  },
+  "dependencies": {
+    "hyvor-talk-vue": "^1.0.5"
   }
 }
