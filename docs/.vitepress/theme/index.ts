@@ -10,12 +10,15 @@ export default {
       script.setAttribute('src', '/_vercel/insights/script.js');
       document.head.appendChild(script);
 
-      // Dynamically import HyvorTalk only on the client
+      // // Dynamically import HyvorTalk only on the client
+      // import('hyvor-talk-vue').then(({ Embed }) => {
+      //   // Register the HyvorTalkEmbed component globally
+      //   if (Embed) {
+      //     app.component('HyvorTalkEmbed', Embed);
+      //   }
+      // });
       import('hyvor-talk-vue').then(({ Embed }) => {
-        // Register the HyvorTalkEmbed component globally
-        if (Embed) {
-          app.component('HyvorTalkEmbed', Embed);
-        }
+        app.component('HyvorTalkEmbed', Embed);
       });
     }
   }
