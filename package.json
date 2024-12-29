@@ -7,9 +7,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "latest"
-  },
-  "dependencies": {
-    "@vercel/analytics": "^1.4.1"
+    "vitepress": "latest",
+    "vue": "^3.3.0"
   }
 }
