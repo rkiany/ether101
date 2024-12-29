@@ -5,7 +5,11 @@ export default defineConfig({
   title: 'Private Cloud Ways',
   description: 'Private cloud journeys.',
   cleanUrls: false,
-
+  vite: {
+    ssr: {
+      noExternal: ['hyvor-talk-vue'], // Mark as external during SSR
+    },
+  },
   themeConfig: {
     sidebar: {
       // '/': [
