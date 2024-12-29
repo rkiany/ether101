@@ -1,4 +1,4 @@
-# Our Vision
+# Our Mission
 
 ## What Are We Doing?
 We are hosting an education platform as a SaaS. Our aim is to provide an efficient and affordable solution for our users.
@@ -21,3 +21,5 @@ There are numerous challenges, including:
 We aim to share our experiences with the world. We want to help others by providing insights and assistance. If you need help building your infrastructure, we're happy to assist.
 
 Join us as we navigate the complexities of building and maintaining an efficient, cost-effective platform!
+
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-mission" />

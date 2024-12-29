@@ -26,7 +26,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Our Story', link: '/journeys/edclub/intro/story' },
-            { text: 'Vision', link: '/journeys/edclub/intro/vision' },
+            { text: 'Mission', link: '/journeys/edclub/intro/mission' },
             { text: 'Assumption', link: '/journeys/edclub/intro/assumption' },
             { text: 'Challenges', link: '/journeys/edclub/intro/challenges' },
             { text: 'Our Stack', link: '/journeys/edclub/intro/stack' },
