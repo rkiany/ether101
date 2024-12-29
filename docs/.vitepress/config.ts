@@ -1,35 +1,59 @@
 import { defineConfig } from 'vitepress';
 
-// refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
   lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  title: 'Private Cloud Ways',
+  description: 'Private cloud journeys.',
+  cleanUrls: false,
 
   themeConfig: {
-    nav: [
-      { text: 'Example', link: '/example' },
-
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
-    ],
-
-    sidebar: [
-      {
-        // text: 'Guide',
-        items: [
-          { text: 'Example', link: '/example' },
-          // ...
-        ],
-      },
+    sidebar: {
+      // '/': [
+      //   {
+      //     text: 'Journeys',
+      //     collapsed: false,
+      //     items: [
+      //       {
+      //         text: 'edclub',
+      //         link: '/journeys/edclub/', // Overview of the edclub journey
+      //       },
+      //     ],
+      //   },
+      // ],
+      '/journeys/edclub/': [
+        {
+          text: 'Introduction',
+          collapsed: true,
+          items: [
+            { text: 'Our Story', link: '/journeys/edclub/intro/story' },
+            { text: 'Vision', link: '/journeys/edclub/intro/vision' },
+            { text: 'Assumption', link: '/journeys/edclub/intro/assumption' },
+            { text: 'Challenges', link: '/journeys/edclub/intro/challenges' },
+            { text: 'Our Stack', link: '/journeys/edclub/intro/stack' },
+          ],
+        },
+        {
+          text: 'Infrastructure',
+          collapsed: true,
+          items: [
+            { text: 'Traffic Flow', link: '/journeys/edclub/infrastructure/traffic-flow' },
+            { text: 'Inside Network', link: '/journeys/edclub/infrastructure/inside-network' },
+            { text: 'Hypervisor', link: '/journeys/edclub/infrastructure/hypervisor' },
+            { text: 'Automation', link: '/journeys/edclub/infrastructure/automation' },
+          ],
+        },
+      ],
+    },
+    editLink: {
+      pattern: 'https://github.com/rkiany/PrivateCloudWays/edit/main/docs/:path',
+      text: 'Edit this page'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024 rkiany'
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/rkiany/PrivateCloudWays' }
     ],
   },
 });
