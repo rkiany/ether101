@@ -5,30 +5,8 @@ export default defineConfig({
   title: 'Private Cloud Ways',
   description: 'Private cloud journeys.',
   cleanUrls: true,
-  vite: {
-    ssr: {
-      noExternal: ['hyvor-talk-vue'], // Mark as external during SSR
-    },
-    build: {
-      rollupOptions: {
-        external: ['hyvor-talk-vue'], // Ensure it's treated as external
-      },
-    },
-  },
   themeConfig: {
     sidebar: {
-      // '/': [
-      //   {
-      //     text: 'Journeys',
-      //     collapsed: false,
-      //     items: [
-      //       {
-      //         text: 'edclub',
-      //         link: '/journeys/edclub/', // Overview of the edclub journey
-      //       },
-      //     ],
-      //   },
-      // ],
       '/journeys/edclub/': [
         {
           text: 'Introduction',
