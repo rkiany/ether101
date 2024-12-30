@@ -4,29 +4,16 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Private Cloud Ways',
   description: 'Private cloud journeys.',
-  cleanUrls: false,
-
+  cleanUrls: true,
   themeConfig: {
     sidebar: {
-      // '/': [
-      //   {
-      //     text: 'Journeys',
-      //     collapsed: false,
-      //     items: [
-      //       {
-      //         text: 'edclub',
-      //         link: '/journeys/edclub/', // Overview of the edclub journey
-      //       },
-      //     ],
-      //   },
-      // ],
       '/journeys/edclub/': [
         {
           text: 'Introduction',
           collapsed: true,
           items: [
             { text: 'Our Story', link: '/journeys/edclub/intro/story' },
-            { text: 'Vision', link: '/journeys/edclub/intro/vision' },
+            { text: 'Mission', link: '/journeys/edclub/intro/mission' },
             { text: 'Assumption', link: '/journeys/edclub/intro/assumption' },
             { text: 'Challenges', link: '/journeys/edclub/intro/challenges' },
             { text: 'Our Stack', link: '/journeys/edclub/intro/stack' },

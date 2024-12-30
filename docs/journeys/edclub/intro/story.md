@@ -7,3 +7,4 @@ Why move away from the cloud? For us, it was about cost efficiency and control. 
 Is it wise to move away from major cloud providers? It depends on your scale and needs. The journey involves mastering advanced networking and database management. However, the result is a more resilient, cost-effective infrastructure. We're creating a community-driven site to share our experiences and lessons learned, helping others who want to embark on this path. Join us as we demystify the process and empower businesses to take control of their tech destinies.
 
 
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-story" />

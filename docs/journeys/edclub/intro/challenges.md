@@ -15,3 +15,5 @@ Transitioning from AWS to our own infrastructure was a major step forward, but i
 6. **Firewall Configuration**: Configuring and fine-tuning our firewall was optional but highly recommended. Proper firewall settings enhanced our infrastructure’s security and performance.
 
 These challenges highlight the difficulties of leaving AWS, but overcoming them builds a stronger and more cost-effective infrastructure.
+
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-challenges" />
