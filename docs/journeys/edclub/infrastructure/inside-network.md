@@ -1,4 +1,4 @@
-# Traffic Flow
+# Inside the internal network
 
 Here is an overview of a simplified version of the inside of each Data Center:
 ![architecture](../../../assets/images/inside-network-data-flow.png)
