@@ -8,3 +8,5 @@ Here we have a Load Balancer distributing the traffic between multiple web serve
 Please note that there is a replication of databases should be happening over another Site-to-Site VPN using between the firewalls connecting these two networks together. 
 
 Next we will cover a complex topic for High Availablity (HA) of Databases. We love Postgresql and use the [following](https://autobase.tech/) project to create and mantain clusters of Database with replication across Data Centers. We will get to this broad topic later. Let's jump to another world which is hypervisors and talking to your hypervisor using automation tools such a Terraform.
+
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-inside-network" />

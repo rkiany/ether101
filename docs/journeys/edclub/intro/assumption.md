@@ -23,3 +23,5 @@
    We are not going to host our application at our DataCenter. We only rely on replutable and secure DataCenters.
 
 By making these assumptions, we aim to build a robust, cost-effective infrastructure that meets our needs and provides valuable insights for others.
+
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-assumption" />

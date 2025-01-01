@@ -7,3 +7,4 @@ Requests are route to CloudFlare network using DNS proxy feature of CloudFlare (
 
 As you can see on the image above that the traffic can be balanced between two Data Centers and once it reaches the other side of the network, it can be send to a Load Balancer (after going through Firewall (optional step) for further packet/traffic inspection). At this point, the traffic is at the doors of internal web Load Balancer (LB) inside the network.
 
+<HyvorTalkEmbed websiteId="12354" id="edclub/infra-traffic-flow" />
