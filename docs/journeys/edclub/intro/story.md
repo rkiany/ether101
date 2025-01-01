@@ -1,6 +1,6 @@
 # Our Story
 
-Over the past year and a half, while working on [edclub](https://www.edclub.com) infrastructure, we've reduced our AWS costs from $30,000/month to under $1,000/month by moving our databases, web servers, and caches off AWS. During this process, we learned to navigate complex systems like Proxmox VE and PostgreSQL HA, mastering network and firewall setups.
+Over the past two years, while working on [edclub](https://www.edclub.com) infrastructure, we've reduced our AWS costs from $30,000/month two years ago (which would have been $40,000/month now) to under $1,000/month by moving our databases, web servers, and caches off AWS. During this process, we learned to navigate complex systems like Proxmox VE and PostgreSQL HA, mastering network and firewall setups.
 
 Why move away from the cloud? For us, it was about cost efficiency and control. This transition has been rewarding beyond just saving money. We still use AWS services but not for basic tasks.
 
