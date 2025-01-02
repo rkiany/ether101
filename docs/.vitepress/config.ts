@@ -8,18 +8,6 @@ export default defineConfig({
 
   themeConfig: {
     sidebar: {
-      // '/': [
-      //   {
-      //     text: 'Journeys',
-      //     collapsed: false,
-      //     items: [
-      //       {
-      //         text: 'edclub',
-      //         link: '/journeys/edclub/', // Overview of the edclub journey
-      //       },
-      //     ],
-      //   },
-      // ],
       '/journeys/edclub/': [
         {
           text: 'Introduction',
@@ -33,14 +21,25 @@ export default defineConfig({
           ],
         },
         {
-          text: 'Infrastructure',
+          text: 'Infrastructure Overview',
           collapsed: true,
           items: [
-            { text: 'Traffic Flow', link: '/journeys/edclub/infrastructure/traffic-flow' },
-            { text: 'Inside Network', link: '/journeys/edclub/infrastructure/inside-network' },
-            { text: 'Hypervisor', link: '/journeys/edclub/infrastructure/hypervisor' },
-            { text: 'Automation', link: '/journeys/edclub/infrastructure/automation' },
-            { text: 'Connectivity', link: '/journeys/edclub/infrastructure/connectivity' },
+            { text: 'Traffic Flow', link: '/journeys/edclub/infrastructure-overview/traffic-flow' },
+            { text: 'Inside Network', link: '/journeys/edclub/infrastructure-overview/inside-network' },
+            { text: 'Hypervisor', link: '/journeys/edclub/infrastructure-overview/hypervisor' },
+            { text: 'Automation', link: '/journeys/edclub/infrastructure-overview/automation' },
+            { text: 'Connectivity', link: '/journeys/edclub/infrastructure-overview/connectivity' },
+          ],
+        },
+        {
+          text: 'Proxmox VE',
+          collapsed: true,
+          items: [
+            { text: 'Cluster Setup', link: '/journeys/edclub/proxmox-ve/setup' },
+            // { text: 'Inside Network', link: '/journeys/edclub/infrastructure-overview/inside-network' },
+            // { text: 'Hypervisor', link: '/journeys/edclub/infrastructure-overview/hypervisor' },
+            // { text: 'Automation', link: '/journeys/edclub/infrastructure-overview/automation' },
+            // { text: 'Connectivity', link: '/journeys/edclub/infrastructure-overview/connectivity' },
           ],
         },
       ],
