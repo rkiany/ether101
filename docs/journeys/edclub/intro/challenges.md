@@ -8,7 +8,7 @@ Transitioning from AWS to our own infrastructure was a major step forward, but i
 
 3. **Vendor Selection**: Finding reliable partners to supply network and server equipment is essential. This part is relatively easy but requires diligent research and negotiation to ensure you get the best deals and support.
 
-4. **Hypervisor Selection and Preparation**: CChoosing the right hypervisor is a critical and complex step. It’s not just about selecting a hypervisor like Proxmox or VMware; it’s about ensuring that it integrates seamlessly with Infrastructure as Code (IaC) tools like Terraform. Preparing the hypervisor and your systems to work with Terraform requires careful testing, configuration, and adjustments to ensure efficient and consistent management of your infrastructure.
+4. **Hypervisor Selection and Preparation**: Choosing the right hypervisor is a critical and complex step. It’s not just about selecting a hypervisor like Proxmox or VMware; it’s about ensuring that it integrates seamlessly with Infrastructure as Code (IaC) tools like Terraform. Preparing the hypervisor and your systems to work with Terraform requires careful testing, configuration, and adjustments to ensure efficient and consistent management of your infrastructure.
 
 5. **Database Migration**: Moving our database out of AWS was one of the most challenging aspects. It required careful planning and execution to avoid downtime and data loss.
 

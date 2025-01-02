@@ -40,6 +40,7 @@ export default defineConfig({
             { text: 'Inside Network', link: '/journeys/edclub/infrastructure/inside-network' },
             { text: 'Hypervisor', link: '/journeys/edclub/infrastructure/hypervisor' },
             { text: 'Automation', link: '/journeys/edclub/infrastructure/automation' },
+            { text: 'Connectivity', link: '/journeys/edclub/infrastructure/connectivity' },
           ],
         },
       ],
