@@ -41,6 +41,8 @@ export default defineConfig({
             { text: 'Hypervisor', link: '/journeys/edclub/infrastructure/hypervisor' },
             { text: 'Automation', link: '/journeys/edclub/infrastructure/automation' },
             { text: 'Connectivity', link: '/journeys/edclub/infrastructure/connectivity' },
+            { text: 'Monitoring', link: '/journeys/edclub/infrastructure/monitoring' },
+
           ],
         },
       ],

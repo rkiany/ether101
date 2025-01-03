@@ -6,3 +6,4 @@ Explore the core components of edclub infrastructure:
 - [Inside a DC Network](./inside-network.md): Dive into our network and traffic flow.
 - [Hypervisor](./hypervisor.md): Hosting your Virtual Machines (VMs) and/or System Containers (LXCs)
 - [Automation](./automation.md): Understand how Terraform and Ansible ties everything together.
+- [Automation](./monitoring.md): Understand how we are utilizing the open source monitoring system.
